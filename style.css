@@ -1,0 +1,186 @@
+body {
+  font-size: 67.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url("./images/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.hero {
+  background-color: hsl(193, 100%, 96%);
+}
+
+.small-button {
+  margin: 2rem 3rem;
+  border-radius: 1rem;
+  width: 15%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  box-shadow: 0 1rem 1rem -0.9rem #333;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 2rem 3rem;
+  max-width: 10rem;
+  height: auto;
+}
+
+.info {
+  width: 40%;
+  display: inline-block;
+  margin: 2rem;
+  vertical-align: top;
+}
+
+.header {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.text {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.screen-image {
+  width: 40%;
+  display: inline-block;
+  height: auto;
+  margin: 1rem 2rem;
+}
+
+.big-button {
+  width: 9rem;
+  height: 2rem;
+  border-radius: 2rem;
+  font-size: 0.5rem;
+  box-shadow: 0 1rem 1rem -0.9rem #333;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-weight: 400;
+  padding: 0 1rem;
+}
+
+.grow {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  box-shadow: -0rem -0.5rem 1rem 2px rgba(220, 220, 220, 0.173);
+  border-radius: 0.5rem;
+}
+
+.grow img {
+  max-width: 30%;
+  height: auto;
+  margin: 2rem 4rem;
+}
+
+.grow .text {
+  width: 40%;
+  margin: 5rem 4rem 2rem 6rem;
+  font-size: 0.8rem;
+}
+
+.grow .text h3 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.grow .text p {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.action {
+  position: relative;
+  top: 4rem;
+  left: 25%;
+  width: 50vw;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.action button {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.action h2 {
+  margin: 1rem;
+}
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  padding: 6rem 6rem;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.footer .logo {
+  margin-left: 0;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact img {
+  display: inline-block;
+  margin: 0 0.7rem;
+}
+
+.contact p {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.links {
+  height: 6rem;
+  width: 30%;
+  margin-left: 1rem;
+}
+
+.links ul {
+  list-style: none;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-top: 0;
+}
+
+.links li {
+  cursor: pointer;
+  margin: 0 0 0.8rem 0;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.social i {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
