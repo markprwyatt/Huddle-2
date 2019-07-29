@@ -188,6 +188,9 @@ body {
 @media (max-width: 375px) {
   .header {
     width: 100%;
+    background-image: url("./images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    margin-top: 0;
   }
 
   .hero {
